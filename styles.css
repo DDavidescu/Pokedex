@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #66f2f7;
+    height: 100vh;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 60px;
+    margin-top: 0;
+    text-align: center;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+  }
+  
+  .container {
+    background-color: hsl(0, 0%, 99%);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 5px solid rgb(243, 138, 178);
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+    font-family: "Acme", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #FFD700;
+    border: none;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Acme", sans-serif;
+  }
+  
+  button:hover {
+    background-color: #FFC200; /* slightly darker yellow on hover */
+  }
+  
+  .output {
+    margin-top: 20px;
+  }
+  
+  .top-container {
+    padding: 10px 10px 45px 10px;
+    height: 210px;
+    background-color: rgb(233, 233, 233);
+  }
+
+  .alignment {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .right-side {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .left-side {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .name-and-id {
+    padding-bottom: 15px;
+    font-family: "Acme", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  #pokemon-id {
+    margin-left: 10px;
+    font-size: 23px;
+  }
+
+  .size {
+    margin-bottom: 10px;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sprite-container {
+    margin-bottom: 20px;
+  }
+  
+  #sprite {
+    width: 200px;
+    height: 200px;
+  }
+  
+  table th {
+    background-color: #FFD700;
+    color: black;
+  }
+  
+  .type {
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    color: #fff;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-family: "Acme", sans-serif;
+  }
+  
+  .type.grass {
+    background-color: #78c850;
+  }
+  
+  .type.fire {
+    background-color: #f08030;
+  }
+  
+  .type.water {
+    background-color: #6890f0;
+  }
+
+  .type.fighting {
+    background-color: red;
+  }
+
+  .type.ice {
+    background-color: aqua;
+  }
+
+  .type.electric {
+    background-color: rgb(241, 191, 26);
+    color: black;
+  }
+
+  .type.flying {
+    background-color: rgb(112, 143, 156);
+  }
+  
+  .type.poison {
+    background-color: green;
+  }
+
+  .type.ground {
+    background-color: rgb(129, 84, 0);
+  }
+
+  .type.rock {
+    background-color: rgb(95, 95, 95);
+  }
+
+  .type.psychic {
+    background-color: rgb(128, 1, 128);
+  }
+
+  .type.bug {
+    background-color: #6ec766;
+  }
+
+  .type.ghost {
+    background-color: rgb(43, 43, 43);
+  }
+
+  .type.dragon {
+    background-color: rgb(255, 0, 98);
+  }
+
+  .type.dark {
+    background-color: #042a42;
+  }
+
+  .type.steel {
+    background-color: #B0C4DE;
+    color: black;
+  }
+  
+  .type.fairy {
+    background-color: rgb(245, 135, 221);
+  }
+
+  .type.normal {
+    background-color: #A8A878
+    ;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  td {
+    padding: 10px;
+    font-family: "Silkscreen", sans-serif;
+  }
+  
+  table tr {
+    border-bottom: 1px solid rgb(194, 194, 194);
+  }
+
+  .speed {
+    font-weight: bold;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 50px;
+    }
+  
+    input[type="text"] {
+      width: 100%;
+    }
+  }
+  
